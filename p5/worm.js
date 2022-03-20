@@ -3,7 +3,7 @@ let green = 240;
 let gradientVar = 1;
 
 function setup() {
-  createCanvas(700, 700);
+  createCanvas( innerWidth, innerHeight);
   background(237,233,233);
 }
 
