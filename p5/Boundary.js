@@ -2,7 +2,9 @@
 function Boundary(x, y, w, h, a) {
     let options = {
         isStatic: true,
-        angle: a
+        angle: a,
+        friction: 0.1,
+        restitution: 0
     };
     this.body = Bodies.rectangle(x, y, w, h, options);
     this.w = w;
