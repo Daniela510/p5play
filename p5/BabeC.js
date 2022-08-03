@@ -1,4 +1,4 @@
-class Babe {
+export default class Babe {
     constructor(x, y, r, photo) {
         let options = {
             friction: 0,
@@ -24,5 +24,3 @@ class Babe {
         };
     }
 }
-
-export default Babe;

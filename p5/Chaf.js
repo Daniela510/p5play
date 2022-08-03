@@ -1,4 +1,4 @@
-function Chaf(x, y, w, h, cham) {
+function Chaf(x, y, w, h, cham, photo) {
     let options = {
         friction: 0,
         restitution: 0,
@@ -19,8 +19,7 @@ function Chaf(x, y, w, h, cham) {
         translate(pos.x, pos.y);
         rotate(angle);
         rectMode(CENTER);
-        rect(0, 0, w, h);
-       // image(photo, -r, -r, p5r, p5r);
+        image(photo, -w/2, -h/2, w, h);
         pop();
     };
 }
