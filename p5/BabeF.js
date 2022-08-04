@@ -1,8 +1,19 @@
-function Babe(x, y, r, photo) {
-    let options = {
-        friction: 0,
-        restitution: 0
-    };
+function Babe(x, y, r, photo, fric) {
+    let options;
+    if (fric){
+        options = {
+            friction: 0.1,
+            restitution: 0,
+            isStatic:true
+        };
+    } else{
+        options = {
+            friction: 0.1,
+            frictionStatic: 0.1,
+            restitution: 0
+        };
+    }
+    
     this.body = Bodies.circle(x, y, r, options);
     this.r = r;
     let p5r = this.r * 2 - 2;
