@@ -13,14 +13,14 @@ let balls = [];
 let walls = [];
 
 function preload() {
-  smiley = loadImage("../assets/Smiley.png");
-  smallsmiley = loadImage("../assets/smallsmileyp.png");
-  iam = loadImage("../assets/iam.png");
-  workimg = loadImage("../assets/workst.png");
-  playimg = loadImage("../assets/play.png");
-  hi = loadImage("../assets/hisvg.svg");
-  nameimg = loadImage("../assets/nameC.png");
-  daniimg = loadImage("../assets/namDaniC.png");
+  smiley = loadImage("./../assets/Smiley.png");
+  smallsmiley = loadImage("./../assets/smallsmileyp.png");
+  iam = loadImage("./../assets/iam.png");
+  workimg = loadImage("./../assets/workst.png");
+  playimg = loadImage("./../assets/play.png");
+  hi = loadImage("./../assets/hisvg.svg");
+  nameimg = loadImage("./../assets/nameC.png");
+  daniimg = loadImage("./../assets/namDaniC.png");
 }
 
 function setup() {

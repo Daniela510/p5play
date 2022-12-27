@@ -16,10 +16,10 @@ let walls = [];
 let complexSVGs = [];
 
 function preload() {
-  smiley = loadImage("../assets/Smiley.png");
-  iam = loadImage("../assets/iam.png");
-  hi = loadImage("../assets/hisvg.svg");
-  nameimg = loadImage("../assets/name.png");
+  smiley = loadImage("./../assets/Smiley.png");
+  iam = loadImage("./../assets/iam.png");
+  hi = loadImage("./../assets/hisvg.svg");
+  nameimg = loadImage("./../assets/name.png");
   complexSVGs = document.getElementsByClassName('path');
 }
 
