@@ -13,7 +13,7 @@ let balls = [];
 let walls = [];
 
 function preload() {
-  smiley = loadImage("./../assets/Smiley.png");
+  smiley = loadImage("./p5play/../assets/Smiley.png");
   smallsmiley = loadImage("./../assets/smallsmileyp.png");
   iam = loadImage("./../assets/iam.png");
   workimg = loadImage("./../assets/workst.png");
